@@ -46,7 +46,7 @@ as a pre-built package.
 The links below point to the latest released images. Older releases can still be
 found [here](https://www.linuxcnc.org/iso/)
 
-* LinuxCNC 2.9.1 [Debian 12 Bookworm PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.1-amd64.hybrid.iso)
+* LinuxCNC 2.9.2 [Debian 12 Bookworm PREEMPT-RT ISO](https://www.linuxcnc.org/iso/LinuxCNC_2.9.2-amd64.hybrid.iso)
 
 The Debian 12 Bookworm ISO will install a full Debian system with the required
 realtime kernel and the linuxcnc-uspace application. It uses a PREEMPT-RT
@@ -70,6 +70,10 @@ building from source is supported and working.
 
 Raspberry Pi 4 Uspace compatible with Mesa Ethernet and SPI interface boards.
 This .xz file is directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
+User name: cnc
+Password: cnc
+Please run the following from the commandline to configure wifi, timezones and other data:
+sudo menu-config
 
 
 Regular development builds (several times a day) can be found here. 
